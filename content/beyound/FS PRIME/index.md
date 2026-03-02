@@ -33,9 +33,7 @@ Founded and led **FS PRIME** as Captain (No. 10) to boost the visibility of wome
 ### 📺 Media Highlights
 
 #### [Commercial Film] 
-세영님이 출연하신 광고 영상입니다.
 {{< youtube bOYrDrYQk1o >}}
 
 #### [National Player Session]
-국가대표 선수들과 함께한 세션입니다.
 {{< youtube LU75Sh_BxVE >}}
