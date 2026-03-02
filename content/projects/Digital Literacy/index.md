@@ -3,7 +3,7 @@ title: "Comparison of Education Policies on Digital Literacy Education"
 summary: "Qualitative research investigating the digital divide among the elderly to foster digital empowerment and inclusivity."
 authors:
 - admin
-date: "2020-03-01T00:00:00Z"
+date: "2021-01-01T00:00:00Z"
 
 tags:
 - Digital Literacy
@@ -21,7 +21,7 @@ image:
 
 * **Principal Investigator:** Dr. Hyounjin Ok
 * **Role:** Undergraduate Research Assistant
-* **Duration:** Sep 2020 ~ Jan 2021
+* **Duration:** Sep 2020 - Jan 2021
 
 ---
 

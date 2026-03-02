@@ -34,8 +34,7 @@ publication_short: In *ECCV*
 abstract: Driven by the success of Masked Language Modeling (MLM), the realm of self-supervised learning for computer vision has been invigorated by the central role of Masked Image Modeling (MIM) in driving recent breakthroughs. Notwithstanding the achievements of MIM across various downstream tasks, its overall efficiency is occasionally hampered by the lengthy duration of the pre-training phase. This paper presents a perspective that the optimization of masked tokens as a means of addressing the prevailing issue. Initially, we delve into an exploration of the inherent properties that a masked token ought to possess. Within the properties, we principally dedicated to articulating and emphasizing the ‘data distinctiveness’ attribute inherent in masked tokens. Through a comprehensive analysis of the heterogeneity between masked tokens and visible tokens within pre-trained models, we propose a novel approach termed masked token optimization (MTO), specifically designed to improve model efficiency through weight recalibration and the enhancement of the key property of masked tokens. The proposed method serves as an adaptable solution that seamlessly integrates into any MIM approach that leverages masked tokens. As a result, MTO achieves a considerable improvement in pre-training efficiency, resulting in an approximately 50% reduction in pre-training epochs required to attain converged performance of the recent approaches. Code is available at https://github.com/doihye/MTO.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+summary: "Proposed MTO to improve MIM pre-training efficiency by 50% through masked token weight recalibration."
 tags:
   - Computer Vision
   - Self-supervised Learning
@@ -62,9 +61,10 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
+  caption: 'MTO Framework'
+  focal_point: 'Center'
   preview_only: false
+  
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -88,16 +88,21 @@ slides: ""
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example. -->
 
-## 1. Motivation
+## 1. Research Motivation: Addressing Efficiency in MIM
+While Masked Image Modeling (MIM) has revolutionized self-supervised learning, its efficiency is often bottlenecked by extremely long pre-training phases (800–1600 epochs). This research introduces **Masked Token Optimization (MTO)**, a framework that recalibrates the role of masked tokens to accelerate convergence.
 
-   Despite the plenteous successes of MIM in diverse downstream tasks, the long pre-training phase that it entails tends to impede its efficiency. Concretely, to attain the convergence of the Transformer for transfer learning, a substantial amount of pre-training, typically from 800 to 1600 epochs in advance, is essential. In this paper, as a fundamental approach, we cast this problem from the perspective of the optimization of masked tokens which arises as a result of the modality gap from NLP systems.
 
-## 2. Properties of Masked Token
-  - **Spatial randomness**: Masked tokens must be randomly selected from the corpus of input patches, so that the model can learn to predict tokens in various locations and types. 
+## 2. My Key Contributions
+As a **co-author (3rd author)**, I was responsible for establishing the **theoretical justification and mathematical proof** that validates the performance improvements of the MTO framework.
 
-  - **Substitutional consistency**: In the process of masking at the initial embedding, tokens that are masked should consistently be replaced with the same parameter.
+### Theoretical Justification & Mathematical Proof
+* **Formal Verification of Convergence:** I provided the mathematical foundation to prove that our framework enhances model stability. By leveraging the properties of **entropy and probability distributions**, I demonstrated how minimizing the entropy of each row in a **row-wise softmax** layer forces the model to focus its attention on the most salient 'visible' tokens.
+* **Inductive Proof for Restorative Focus:** Using **mathematical induction**, I proved that the MTO design ensures the model accurately identifies and prioritizes regions necessitating semantic restoration, leading to more reliable and reproducible results. 
+* **Validation of Reliability:** My work in **Supplementary Section 5** provides a complete proof of the MTO architecture's reliability, ensuring the model's performance isn't just empirical but theoretically sound.
 
-  - **Data singularity**:  Masked tokens in the initial embedding should be unique tokens that have a low likelihood of manifesting in the training data.
 
-## 3. Proposed Optimization
-  The proposed Masked Token Optimization (MTO) approach encompasses the selective exclusion of semantically inconsequential masked tokens from the weight aggregation process pertaining to visible tokens, and at the same time, it enforces data singularity constraints based on the depth of the layer to enhance the model’s capability to accurately identify regions necessitating semantic restoration.
+### Technical Impact
+* **Reduction in Training Time:** Contributed to a framework that achieves an approximately **50% reduction in pre-training epochs** required for convergence across various MIM-based models.
+* **Enhanced Data Singularity:** Optimized the 'data distinctiveness' attribute of masked tokens, allowing the model to better distinguish between masked and visible tokens in the early stages of training.
+
+---

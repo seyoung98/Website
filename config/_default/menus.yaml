@@ -7,12 +7,32 @@ main:
   - name: About
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Projects
-    url: projects/
+  # 1. 상위 메뉴 (Research) 생성
+  - name: Research
+    url: '#'       # 클릭 시 이동하지 않고 드롭다운만 열리게 설정
+    identifier: research
     weight: 20
+
+
+  # 2. Papers를 Research 하위로 이동
+  - name: Publications and Presentations
+    url: /#papers  # 메인 페이지의 논문 섹션으로 이동
+    parent: research
+    weight: 10
+
+  # - name: Papers
+  #   url: /#papers
+  #   weight: 11
+
+  # 3. Projects를 Research 하위로 이동
+  - name: Projects
+    url: projects/     # 메인 페이지의 프로젝트 섹션으로 이동
+    parent: research
+    weight: 20
+
+  # - name: Projects
+  #   url: projects/
+  #   weight: 20
   # - name: Talks
   #   url: /#talks
   #   weight: 12
@@ -22,6 +42,6 @@ main:
   - name: Experience
     url: experience/
     weight: 30
-  - name: Courses
-    url: courses/
+  - name: Beyond the Lab
+    url: beyound/
     weight: 40
