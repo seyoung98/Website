@@ -1,15 +1,34 @@
 ---
-title: scikit-learn
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+title: "Comparison of Education Policies on Digital Literacy Education"
+summary: "Qualitative research investigating the digital divide among the elderly to foster digital empowerment and inclusivity."
+authors:
+- admin
+date: "2020-03-01T00:00:00Z"
+
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+- Digital Literacy
+- Qualitative Research
+- Inclusive Design
+- Social Policy
+
+image:
+  caption: "Investigating the digital divide through human-centered research"
+  focal_point: "Smart"
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+### Project Overview
+**Undergraduate Research Assistant, EWU College of Education**
 
-<!--more-->
+* **Principal Investigator:** Dr. Hyounjin Ok
+* **Role:** Undergraduate Research Assistant
+* **Duration:** Sep 2020 ~ Jan 2021
+
+---
+
+### Research Objective
+The primary goal of this research was to compare education policies regarding digital literacy and identify the specific barriers faced by the elderly in an increasingly digitized society.
+
+### Methodology and Contributions
+* **Qualitative Interviewing:** Conducted in-depth qualitative interviews with eight Korean participants aged 65 and older to capture first-hand experiences of the digital divide.
+* **Insight Synthesis:** Analyzed interview data to extract key themes related to digital accessibility and the psychological barriers to adopting new technologies.
+* **Policy Recommendations:** Contributed to synthesizing insights aimed at fostering digital empowerment and promoting social inclusivity for senior citizens.
