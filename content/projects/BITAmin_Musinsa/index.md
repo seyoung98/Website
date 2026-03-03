@@ -16,9 +16,7 @@ image:
   focal_point: "Smart"
 
 links:
-- icon: github
-  icon_pack: fab
-  name: Code
+- name: Code
   url: https://github.com/BITAmin-6th-conference/Recomm_fashion
 ---
 
@@ -41,7 +39,7 @@ We developed a **Content-Based Recommendation System** that analyzes the visual 
 ---
 
 ### My Key Contributions
-* **Visual Feature Extraction:** * Utilized **CNN (Convolutional Neural Networks)** to convert four key clothing attributes into high-dimensional feature vectors.
+* **Visual Feature Extraction:** Utilized **CNN (Convolutional Neural Networks)** to convert four key clothing attributes into high-dimensional feature vectors.
     * Engineered a custom **Color Feature Module** that calculates average RGB values from cropped images, overcoming the limitations of standard models in capturing precise color information.
 * **Advanced Recommendation Algorithm:**
     * Implemented **Cosine Similarity** to match user inputs with the MUSINSA dataset, enhancing recommendation accuracy for personalized fashion discovery.

@@ -43,5 +43,5 @@ main:
     url: experience/
     weight: 30
   - name: Beyond the Lab
-    url: beyound/
+    url: beyond/
     weight: 40

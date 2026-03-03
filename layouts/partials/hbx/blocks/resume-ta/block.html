@@ -1,0 +1,47 @@
+{{/* Custom Teaching Assistant block modeled loosely on resume-awards */}}
+{{ $block := .block }}
+{{ $page := .page }}
+
+{{ $username := $block.content.username | default "me" }}
+{{ $author := index site.Data.authors $username }}
+
+{{ if not $author }}
+  {{ warnf "resume-ta: author %q not found in data/authors" $username }}
+{{ else }}
+  {{ $items := $author.ta }}
+  {{ if not $items }}
+    {{ warnf "resume-ta: no ta items for author %q" $username }}
+  {{ else }}
+    <section id="section-resume-ta" class="relative hbb-section blox-resume-awards">
+      <div class="home-section-bg"></div>
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <header class="mb-8 text-center">
+          <h2 class="text-3xl font-semibold tracking-tight">
+            {{ $block.content.title | default "Teaching Assistant Experience" }}
+          </h2>
+        </header>
+
+        <div class="mx-auto max-w-3xl">
+          <div class="grid gap-6 md:grid-cols-1">
+          {{ range $items }}
+            <article class="relative overflow-hidden rounded-2xl border border-gray-200/70 bg-white/70 p-6 shadow-sm backdrop-blur dark:border-gray-700/60 dark:bg-gray-900/60">
+              <h3 class="mb-1 text-lg font-semibold">
+                {{ with .title }}{{ . }}{{ else }}{{ .role }}{{ end }}
+              </h3>
+              <p class="mb-2 text-sm text-gray-600 dark:text-gray-300">
+                {{ with .role }}{{ . }}{{ end }}{{ if and .role .org }} · {{ end }}{{ with .org }}{{ . }}{{ end }}
+              </p>
+              {{ with .summary }}
+                <p class="text-sm leading-relaxed text-gray-700 dark:text-gray-200">
+                  {{ . | markdownify }}
+                </p>
+              {{ end }}
+            </article>
+          {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
+

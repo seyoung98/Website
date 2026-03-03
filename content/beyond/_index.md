@@ -7,10 +7,10 @@ sections:
   - block: collection
     id: futsal
     content:
-      title: Futsal & Athletics
+      title: Futsal
       filters:
         folders:
-          - beyound
+          - beyond
         # 'Course' 태그 대신 모든 내용을 보여주기 위해 태그 필터 제거를 추천합니다.
         tag: '' 
     design:

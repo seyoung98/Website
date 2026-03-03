@@ -1,5 +1,5 @@
 ---
-title: "Founder & Captain: FS PRIME"
+title: "FS PRIME: Founder & Captain"
 summary: "Club Management (No. 10) | Media Collaboration & Women's Sports Advocacy"
 date: "2024-12-31"
 tags:
@@ -8,17 +8,11 @@ tags:
   - Content Creation
 
 links:
-- icon: youtube
-  icon_pack: fab
-  name: "Commercial Film"
+- name: "Commercial Film"
   url: "https://youtu.be/bOYrDrYQk1o?si=webE5ys5wu5D66Ed"
-- icon: youtube
-  icon_pack: fab
-  name: "National Player Session"
+- name: "National Player Session"
   url: "https://youtu.be/LU75Sh_BxVE?si=4bIHguLbd_rCaGDx"
-- icon: instagram
-  icon_pack: fab
-  name: "Instagram Reel"
+- name: "Instagram Reel"
   url: "https://www.instagram.com/reel/CwWsH8cgnXt/?igsh=Y3Z4b3NwZHpjdGI0"
 ---
 

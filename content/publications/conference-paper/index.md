@@ -38,6 +38,7 @@ summary: "Proposed MTO to improve MIM pre-training efficiency by 50% through mas
 tags:
   - Computer Vision
   - Self-supervised Learning
+  - International Conference
 
 # Display this page in the Featured widget?
 featured: true

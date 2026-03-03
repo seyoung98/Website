@@ -1,5 +1,5 @@
 ---
-title: "Elite Player: FS Goyang Ladies"
+title: "Goyang Ladies FS: Elite Player"
 summary: "FK CUP Champion (No. 17) | Professional Proposal Drafting & Corporate Sponsorship"
 date: "2025-01-01"
 tags:
@@ -14,7 +14,7 @@ links:
 ---
 
 ### Professional Athlete & Strategic Partner
-As an elite player (No. 17) for **FS Goyang Ladies**, I combined athletic excellence with professional administrative skills.
+As an elite player (No. 17) for **Goyang Ladies FS**, I combined athletic excellence with professional administrative skills.
 
 * **FK CUP Champion**: Won South Korea's premier national futsal tournament, demonstrating high-level discipline and physical resilience.
-* **Sponsorship Acquisition**: Secured two corporate sponsorships for an international match in Malaysia by drafting professional business proposals, bridging the gap between sports and corporate interests. [cite: 179]
+* **Sponsorship Acquisition**: Secured two corporate sponsorships for an international match in Malaysia by drafting professional business proposals, bridging the gap between sports and corporate interests.

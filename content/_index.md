@@ -67,6 +67,7 @@ sections:
       filters:
         folders:
           - publications
+        tag: 'International Conference'
         exclude_featured: false
     design:
       view: citation

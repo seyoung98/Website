@@ -17,17 +17,31 @@ sections:
       # Hugo date format
       date_format: ''
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
+
+
+  - block: resume-ta
+    content:
+      title: Teaching Assistant Experience
+      username: me
+
+  - block: resume-awards
+    content:
+      title: Scholarships
+      username: me
+
+  # TA 섹션은 아직 지원하는 블록이 없어서 주석 처리
+  # - block: resume-ta
+  #   content:
+  #     title: Teaching Assistants
+  #     username: me
+
   # - block: resume-skills
   #   content:
   #     title: Skills & Hobbies
   #     username: me
-  # - block: resume-awards
+  # - block: resume-languages
   #   content:
-  #     title: Awards
+  #     title: Languages
   #     username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
 ---

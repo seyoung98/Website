@@ -20,7 +20,7 @@ featured: true
 
 links:
 - type: PDF
-  name: PDF
+  name: paper
   url: uploads/master thesis.pdf
 
 - type: code

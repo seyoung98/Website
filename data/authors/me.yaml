@@ -62,11 +62,11 @@ education:
   #     icon: hero/arrow-down-tray
   - degree: MS Artificial Intelligence and Software
     institution: Ewha Womans University
-    # start: 2022 - 2025
-    end: 2022 - 2025
+    # 기간: 2022 - 2025
+    end: "2022 - 2025"
   - degree: BS Statistics & BSE Computer Science
     institution: Ewha Womans University
-    end: 2017 - 2022
+    end: "2017 - 2022"
 
 # experience:
 #   - role: Senior AI Research Scientist
@@ -85,35 +85,60 @@ education:
 #     summary: |
 #       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - label: Python
+#         level: 5
+#       - label: Machine Learning
+#         level: 5
+#       - label: Cloud Computing
+#         level: 4
+#   - name: Research & Communication
+#     items:
+#       - label: Academic Writing
+#         level: 5
+#       - label: Conference Presentations
+#         level: 4
+#       - label: Grant Proposals
+#         level: 4
 
-languages:
-  - name: Korean
-    level: 5
-    label: Native
-  - name: English
-    level: 4
-    label: Fluent
+# languages:
+#   - name: Korean
+#     level: 5
+#     label: Native
+#   - name: English
+#     level: 4
+#     label: Fluent
 
-# awards:
-#   - title: Best Paper Award
-#     awarder: NeurIPS
-#     date: "2022-12-01"
-#     summary: Awarded for groundbreaking work on efficient training of large models.
-#     icon: hero/trophy
+awards:
+  - title: Ewha-Boeing Scholarship for CS Graduate Students
+    awarder: Boeing
+    date_start: '2024-09-01'
+    description: Partial Tuition Scholarship awarded to outstanding female graduate students in CS. 
+  - title: Merit-Based STEM Graduate School Admission Scholarship
+    awarder: Ewha Womans University
+    date_start: '2023-03-01'
+    description: 1 Year Full Tuition Scholarship for academic excellence in the MS program. 
+  - title: Merit-Based Scholarship
+    awarder: Institute for Professional Women in Globalization Era
+    date_start: '2023-09-01'
+    description: Awarded for global leadership potential. 
+
+ta:
+  - title: Data Structure
+    role: Graduate TA
+    org: College of Artificial Intelligence, EWU
+    summary: |
+      Fall 2022, Fall 2024
+  - title: Foundation of Artificial Intelligence
+    role: Graduate TA
+    org: College of Artificial Intelligence, EWU
+    summary: |
+      Spring 2023, Fall 2023, Spring 2024
+  - title: Problem Solving and Software Programming
+    role: Undergraduate TA
+    org: College of Engineering, EWU
+    summary: |
+      Fall 2020
+  
