@@ -18,11 +18,13 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/CV_Seyoung Joung_v2603.pdf
+        url: uploads/CV_Seyoung Joung_v2609.pdf
       headings:
         about: 'About Me'
         education: ''
-        interests: ''
+        expertise: 'Expertise'
+        interests: 'Interests'
+
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:

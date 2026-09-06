@@ -42,11 +42,16 @@ links:
   #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
+  - Human-Centered Spatial Design (Virtual & Physical)
   - Human-AI Interaction
   - Human Centered AI
-  - Inclusive Technology
+
+expertise:
   - Computer Vision (3D & Depth)
+  - Deep Learning
+  - Machine Learning
   - Mathematical Foundations
+
 
 
 education:
@@ -60,6 +65,10 @@ education:
   #     text: Download dissertation
   #     url: /resume.pdf
   #     icon: hero/arrow-down-tray
+  - degree: MS Media Arts and Sciences
+    institution: Arizona State University
+    # 기간: 2022 - 2025
+    end: "2026 -"
   - degree: MS Artificial Intelligence and Software
     institution: Ewha Womans University
     # 기간: 2022 - 2025
